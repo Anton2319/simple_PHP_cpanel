@@ -1,0 +1,115 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-image: url(cms/images/background1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	width: 100vw;
+	height: 100vh;
+	overflow-x: hidden;
+	text-align: center;
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-around;
+	user-select: none;
+}
+
+a {
+	color: blue;
+	text-decoration: none;
+}
+
+.admin_body {
+	width: 35vw;
+	background-color: lightgray;
+	padding: 2em;
+	border-radius: 20px;
+}
+
+.admin_body form {
+	margin: 1em 0;
+}
+
+.head {
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+.head * {
+	display: inline;
+	white-space: nowrap;
+}
+
+.add_introtext {
+	width: 90%;
+	height: 10em;
+}
+
+.article_create * {
+	margin: 0 0 .5em 0;
+}
+
+input, textarea {
+	outline: none;
+	padding: .4em;
+	border: none;
+	border-radius: 10px;
+}
+
+input[type="button"], input[type="reset"], input[type="submit"] {
+	cursor: pointer;
+	background-color: darkgray;
+	color: white;
+	font-weight: bold;
+}
+
+input[type="reset"] {
+	background-color: red;
+}
+
+input[type="submit"] {
+	background-color: green;
+}
+
+.sort input {
+	background-color: dimgray;
+}
+
+.add_text {
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

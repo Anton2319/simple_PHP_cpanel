@@ -1,0 +1,9 @@
+<?php
+//put it script to index.php or any page, where you want to display artiles
+$f = scandir("adminpanel/articles");
+//you can choose any position of $f array
+$contents = file_get_contents($f[1]);
+echo($contents);
+?>
+//made by Anton2319
+//my VK: vk.com/infinitewanderer
